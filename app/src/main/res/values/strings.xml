@@ -11,6 +11,7 @@
 
     <string name="action_settings">Settings</string>
 
+    <string name="menu_aws">AWS_Test</string>
     <string name="menu_calendar">Calendrier</string>
     <string name="menu_contacts">Contacts</string>
     <string name="menu_prop_ue">Proposition d\'UE</string>
@@ -49,7 +50,7 @@
     <string name="schedule_secretariat_2">De 9h à 12h le samedi</string>
     <string name="schedule_warning">Horaires réduits durant les périodes de vacances et d\'inter-semestres</string>
 
-    <string name="next_courses_header">Prochains cours :</string>
+    <string name="next_courses_header">Test api cursus :</string>
     <string name="add_event_description">Ajouter un évènement</string>
     <string name="next_event_header">Évènements :</string>
 

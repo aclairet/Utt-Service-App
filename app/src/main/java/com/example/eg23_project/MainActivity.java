@@ -103,16 +103,16 @@ public class MainActivity extends AppCompatActivity
         if (id == R.id.action_settings) {
             return true;
         } else if (id == R.id.home_button) {
-            Fragment fragment = new Home();
-            FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
-            ft.replace(R.id.main_content, fragment);
-            ft.commit();
-
-            NavigationView navigationView = findViewById(R.id.nav_view);
-            int size = navigationView.getMenu().size();
-            for (int i = 0; i < size; i++) {
-                navigationView.getMenu().getItem(i).setChecked(false);
-            }
+//            Fragment fragment = new Home();
+//            FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+//            ft.replace(R.id.main_content, fragment);
+//            ft.commit();
+//
+//            NavigationView navigationView = findViewById(R.id.nav_view);
+//            int size = navigationView.getMenu().size();
+//            for (int i = 0; i < size; i++) {
+//                navigationView.getMenu().getItem(i).setChecked(false);
+//            }
         }
 
         return super.onOptionsItemSelected(item);
@@ -125,6 +125,9 @@ public class MainActivity extends AppCompatActivity
         Fragment fragment = null;
 
         switch (id) {
+            case R.id.nav_aws:
+                fragment = new AWS();
+                break;
             case R.id.nav_calendar:
                 fragment = new Calendar();
                 break;

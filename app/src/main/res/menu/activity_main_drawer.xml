@@ -7,6 +7,10 @@
         android:id="@+id/grp1"
         android:checkableBehavior="single">
         <item
+            android:id="@+id/nav_aws"
+            android:icon="@drawable/ic_menu_calendar"
+            android:title="@string/menu_aws" />
+        <item
             android:id="@+id/nav_calendar"
             android:icon="@drawable/ic_menu_calendar"
             android:title="@string/menu_calendar" />
